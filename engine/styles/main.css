@@ -1,0 +1,213 @@
+.body_test_mess{
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+	background: #FAFBFF;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+._container{
+    max-width: 1170px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+.new__container{
+	min-height: 104px;
+	align-items: center;
+	height: 100vh;
+}
+.flex_mess_block{
+	height: 628px;
+    display: flex;
+    padding-top: 76px;
+
+}
+.main_mess_block{
+	width: 570px;
+    box-sizing: border-box;
+    background: #F5F5F8;
+    border: 1px solid rgba(35, 44, 94, 0.21);
+    box-shadow: 0px 6px 25px rgb(19 35 68 / 10%);
+    border-radius: 8px;
+}
+.messenger_user_block{
+	background: #fff;
+	/*margin-bottom: 26px;*/
+    height: 470px; 
+	overflow-y:scroll;
+	padding-left: 31px;
+	padding-right: 31px;
+}
+.mess_user{
+    min-height: 84px;
+    padding-top: 17px;
+}
+.mess_user:first-child{
+	padding-top: 28px;
+}
+.mess_user:last-child{
+	padding-bottom: 30px;
+}
+.nickname_user{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5E5E5E;
+}
+
+.mess_content{
+	position: relative;
+	background: #F5F5F8;
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    margin-top: 6px;
+    min-height: 20px;
+    height: max-content;
+    width: max-content;
+    word-wrap: break-word;
+    min-width: 295px;
+    /*max-width: -webkit-fill-available;*/
+    max-width: 432px;
+    padding: 16px 17px 16px 17px;
+}
+.messenger_list{
+	height: max-content;
+}
+
+::-webkit-scrollbar {
+  	width: 5px;
+	height: 5px;
+	scroll-padding-right: 8px;
+}
+::-webkit-scrollbar-button{
+    width: 27px;
+    height: 27px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(35, 44, 94, 0.12);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(35, 44, 94, 0.12);
+  border: 42px none #ffffff;
+  border-radius: 50px;
+}
+.mess_content_block{
+    padding-right: 10px;
+    background: #fff;
+    border-top: 1px solid rgba(35, 44, 94, 0.13);
+	border-bottom: 1px solid rgba(35, 44, 94, 0.13);
+	margin-top: 30px;
+}
+.mess_block_text{
+    background: #FFFFFF;
+    border: 1px solid rgba(35, 44, 94, 0.21);
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 54px;
+    width: 506px;
+    position: relative;
+}
+
+.area_text{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222223;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 18px;
+    position: relative;
+    width: 100%;
+}
+.mess_area_user{
+	margin: 36px 31px;
+}
+input::placeholder{
+	color: rgba(34, 34, 34, 1);
+}
+.mess_button{
+    background: url(../../images/carbon_send.png) center center no-repeat;
+    background-size: 28px 28px;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    position: absolute;
+    right: 14px;
+    width: 26px;
+}
+.mess_time{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #969696;
+    position: absolute;
+    right: 2%;
+    bottom: 6px;
+}
+.delete{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 1px 0 0 0px;
+    background: url(../../images/clarity_close-line.png) center center no-repeat;
+}
+.mess_user_main_cont{
+	display: flex;
+}
+.nickname_get_block{
+	width: 370px;
+    height: 169px;
+    margin-left: 131px;
+    margin-top: 21px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid rgba(35, 44, 94, 0.21);
+    box-shadow: 0px 6px 25px rgb(19 35 68 / 10%);
+    border-radius: 8px;
+    display: flex;	
+    flex-direction: column;
+    padding: 38px 29px;
+}
+.main_nickname_block_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #222222;
+	margin-bottom: 5px;
+}
+.give_text{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    	padding: 0 17px;
+    background: #FFFFFF;
+    border: 1px solid #232C5E;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 54px;
+}
